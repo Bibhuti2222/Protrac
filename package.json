@@ -1,0 +1,11 @@
+{
+  "name": "ProtractorJasmineFramework",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "protractor config.js",
+    "start1": "./node_modules/protractor/bin/protractor config.js"
+  },
+  "dependencies": {
+    
+  }
+}
