@@ -1,7 +1,6 @@
 exports.config = {
-    // vfv
     framework:'jasmine',
-    seleniumAddress: 'http://localhost:4444/wd/hub',
+    // seleniumAddress: 'http://localhost:4444/wd/hub',
     specs: ['Test.js'],
     params: {
         url: 'https://www.protractortest.org'
