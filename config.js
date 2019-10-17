@@ -1,6 +1,6 @@
 exports.config = {
     framework:'jasmine',
-    seleniumAddress: 'http://localhost:4444/wd/hub',
+    // seleniumAddress: 'http://localhost:4444/wd/hub',
     specs: ['Test.js'],
     params: {
         url: 'https://www.protractortest.org'
@@ -11,7 +11,7 @@ exports.config = {
     suites: { s1: 'suites1/**/*.js',
         s2: 'suites2/!**/!*.js'
     },
-    directConnect:false,
+    // directConnect:false,
     onPrepare: function () {
         browser.manage().window().maximize();
     }
