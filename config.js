@@ -11,7 +11,7 @@ exports.config = {
     suites: { s1: 'suites1/**/*.js',
         s2: 'suites2/!**/!*.js'
     },
-    // directConnect:false,
+    directConnect:false,
     onPrepare: function () {
         browser.manage().window().maximize();
     }
