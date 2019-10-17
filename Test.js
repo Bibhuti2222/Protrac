@@ -25,7 +25,7 @@ describe('description',function () {
         // console.log(browser.getTitle());
     })
 
-    xit('script-4 - Get url ', function () {
+    it('script-4 - Get url ', function () {
         console.log("S-4");
         browser.get("https://www.protractortest.org");
         browser.getCurrentUrl().then(function (url) {
